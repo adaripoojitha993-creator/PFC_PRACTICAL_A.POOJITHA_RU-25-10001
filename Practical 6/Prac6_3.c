@@ -23,3 +23,12 @@ int main() {
     return 0;
 
 }
+// Enter ATM PIN: 2348
+// Incorrect PIN
+// Enter ATM PIN: 1235
+// Incorrect PIN
+// Enter ATM PIN: 9765
+// Incorrect PIN
+// Card Blocked. Too many incorrect attempts
+// Enter ATM PIN: 1234
+// Authentication Successful

@@ -1,0 +1,39 @@
+#include <stdio.h>
+//A.Poojitha
+//ERP ID - RU-25-10001
+int main() {
+    int n, i, j;
+
+    scanf("%d", &n);
+
+    for (i = n; i >= 1; i--) {
+        for (j = 1; j <= n - i; j++)
+            printf(" ");
+        for (j = 1; j <= 2 * i - 1; j++)
+            printf("*");
+        printf("\n");
+    }
+
+    for (i = 2; i <= n; i++) {
+        for (j = 1; j <= n - i; j++)
+            printf(" ");
+        for (j = 1; j <= 2 * i - 1; j++)
+            printf("*");
+        printf("\n");
+    }
+
+    return 0;
+}
+// Output - 
+// 6  
+// ***********
+//  *********
+//   *******
+//    *****
+//     ***
+//      *
+//     ***
+//    *****
+//   *******
+//  *********
+// ***********
